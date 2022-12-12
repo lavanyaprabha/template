@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form {
+    margin: auto;
+    width: 45%;
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2rem;
+
+
+    input {
+        margin-top: 1rem;
+        height: 3rem;
+        width: 15rem;
+        border: 2px solid rgb(0, 0, 0);
+        background-color: transparent;
+
+    }
+
+    textarea {
+        margin-top: 1rem;
+        width: 15rem;
+        height: 8rem;
+        border: 2px solid rgb(0, 0, 0);
+        background-color: transparent;
+
+    }
+
+}
